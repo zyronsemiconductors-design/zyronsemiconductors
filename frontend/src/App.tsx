@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route, useLocation, BrowserRouter } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Footer from './components/Footer';
+import SocialIcons from "./components/SocialIcons";
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
@@ -41,6 +42,7 @@ const App: React.FC = () => {
         <main className="flex-grow">
           <ScrollToTop />
           <AnimatedRoutes />
+          <SocialIcons />
         </main>
         <Footer data={Eng.Common.footer} />
       </div>

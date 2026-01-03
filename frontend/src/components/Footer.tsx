@@ -2,12 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import {
   Cpu,
-  Linkedin,
-  Twitter,
-  Github,
   Mail,
   MapPin,
   Phone,
+  Linkedin,
+  Twitter,
+  Facebook,
+  Instagram,
 } from "lucide-react";
 import { FooterData } from "../types";
 
@@ -18,7 +19,8 @@ interface FooterProps {
 const iconMap: Record<string, React.FC<any>> = {
   linkedin: Linkedin,
   twitter: Twitter,
-  github: Github,
+  facebook: Facebook,
+  instagram: Instagram,
 };
 
 const Footer: React.FC<FooterProps> = ({ data }) => {

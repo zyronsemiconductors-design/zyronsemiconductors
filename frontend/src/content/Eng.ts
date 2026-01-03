@@ -257,9 +257,10 @@ export const Eng = {
                 description:
                     "Zyron Semiconductors is a trusted engineering services company delivering semiconductor services, VLSI solutions, embedded systems, and product engineering for a connected and intelligent world.",
                 socials: [
-                    { icon: "linkedin", url: "#" },
-                    { icon: "twitter", url: "#" },
-                    { icon: "github", url: "#" },
+                    { icon: "facebook", url: "https://www.facebook.com/profile.php?id=61585946035332" },
+                    { icon: "instagram", url: "https://www.instagram.com/zyronsemiconductors" },
+                    { icon: "linkedin", url: "https://www.linkedin.com/company/zyronsemiconductors" },
+                    { icon: "twitter", url: "https://x.com/ZyronSemi" },
                 ],
             },
             company: [
